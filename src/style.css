@@ -1,9 +1,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #efe5e9;
 }
 
 h1 {
-  color: rgb(162, 141, 141);
+  color: rgb(33, 33, 33);
   display: block;
   font-size: 24px;
   font-weight: 100;
@@ -25,20 +26,22 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+  color: rgb(33, 33, 33);
 }
 
-li::first-letter {
+li:first-letter {
   text-transform: capitalize;
 }
 
 .weather-app-wrap {
   max-width: 650px;
-  margin: 70px auto;
+  margin: 125px auto;
 }
 
 .weather-app {
   padding: 20px;
   border: 1px solid rgb(195, 184, 184);
+  background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
   border-radius: 8px;
 }
 
