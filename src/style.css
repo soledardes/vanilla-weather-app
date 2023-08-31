@@ -86,7 +86,12 @@ button:hover {
   color: rgb(234, 222, 222);
 }
 
-.dark .units {
+.dark input[type="submit"] {
+  border-color: antiquewhite;
+  color: antiquewhite;
+}
+
+.dark .units .active {
   color: rgb(234, 222, 222);
 }
 
