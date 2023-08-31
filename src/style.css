@@ -29,10 +29,23 @@ li {
   color: rgb(33, 33, 33);
 }
 
+.btn-bd-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+
 li:first-letter {
   text-transform: capitalize;
 }
-
 
 .weather-app-wrap {
   max-width: 650px;
@@ -42,7 +55,11 @@ li:first-letter {
 .weather-app {
   padding: 20px;
   border: 1px solid rgb(195, 184, 184);
-  background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+  background: linear-gradient(
+    109.6deg,
+    rgb(245, 239, 249) 30.1%,
+    rgb(207, 211, 236) 100.2%
+  );
   border-radius: 8px;
 }
 
