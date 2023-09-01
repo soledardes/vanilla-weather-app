@@ -45,8 +45,8 @@ button:hover {
   color: white;
 }
 .dark button:hover {
-  background: #09203f;
-  color: white;
+  background: white;
+  color: black;
 }
 .theme-button {
   font-size: 20px;
